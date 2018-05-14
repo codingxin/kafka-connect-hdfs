@@ -68,17 +68,19 @@
     </repositories>
 
     <dependencies>
+
         <dependency>
             <groupId>org.apache.kafka</groupId>
             <artifactId>connect-api</artifactId>
-            <scope>provided</scope>
+            <version>0.10.1</version>
         </dependency>
+
         <dependency>
             <groupId>org.apache.kafka</groupId>
             <artifactId>connect-json</artifactId>
-            <version>${kafka.version}</version>
-            <scope>provided</scope>
+            <version>1.1.0</version>
         </dependency>
+
         <dependency>
             <groupId>io.confluent</groupId>
             <artifactId>kafka-connect-storage-common</artifactId>

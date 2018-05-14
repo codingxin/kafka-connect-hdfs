@@ -281,7 +281,7 @@ public class TopicPartitionWriter {
     return true;
   }
 
-  private void updateRotationTimers(SinkRecord currentRecord) {
+  private void updateRotationTimers(SinkRecord currentRecord) { System.out.println("test");
     long now = time.milliseconds();
     // Wallclock-based partitioners should be independent of the record argument.
     lastRotate = isWallclockBased
